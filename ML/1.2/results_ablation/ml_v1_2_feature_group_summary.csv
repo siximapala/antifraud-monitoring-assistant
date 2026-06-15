@@ -1,0 +1,8 @@
+variant,n_features,n_removed_vs_base,n_added_vs_base,removed_cols,added_cols
+full_base,82,0,0,,
+with_sparse_identity,93,0,11,,"id_07_mean, id_07_median, id_08_mean, id_08_median, id_21_mode, id_22_mode, id_23_mode, id_24_mode, id_25_mode, id_26_mode, id_27_mode"
+without_identity,28,54,0,"device_type_nunique, id_01_count, id_01_mean, id_01_median, id_02_count, id_02_mean, id_02_median, id_03_count, id_03_mean, id_03_median, id_04_count, id_04_mean, id_04_median, id_05_count, id_05_mean, id_05_median, id_06_count, id_06_mean, id_06_median, id_07_count, id_08_count, id_09_count, id_09_mean, id_09_median, id_10_count, id_10_mean, id_10_median, id_11_count, id_11_mean, id_11_median, id_12_mode, id_13_mode, id_14_mode, id_15_mode, id_16_mode, id_17_mode, id_18_mode, id_19_mode, id_20_mode, id_28_mode, id_29_mode, id_30_mode, id_31_mode, id_32_mode, id_33_mode, id_34_mode, id_35_mode, id_36_mode, id_37_mode, id_38_mode, identity_present, identity_rows, non_null_id_values, num_missing_identity",
+without_email_domain,81,1,0,top_email_domain,
+without_amount,71,11,0,"amount_repeat_share, high_risk_vs_mean, odd_amount_share, short_turnover_share, tx_amount_mean, tx_amount_median_proxy, tx_amount_std, tx_amount_sum, tx_sum_high_risk_flow_proxy, tx_sum_stanadart_flow_proxy_proxy, weighted_amount_repeat_share",
+without_activity_time,77,5,0,"avg_inter_tx_seconds, daily_activity_share, short_turnover_share, tx_dt_span_days, tx_freq_per_day",
+without_flow_risk,73,9,0,"MCC_risk_share_proxy, cash_out_ratio_proxy, crypto_pattern_score, high_risk_vs_mean, productcd_nunique, tx_count_high_risk_flow, tx_count_standart_flow, tx_sum_high_risk_flow_proxy, tx_sum_stanadart_flow_proxy_proxy",

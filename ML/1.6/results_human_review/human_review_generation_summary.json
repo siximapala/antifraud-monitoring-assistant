@@ -1,0 +1,92 @@
+{
+  "seed": 42,
+  "profile_csv": "D:\\Диплом данные\\client_profile_v1_0_shuffled.csv",
+  "high_risk_csv": "D:\\Диплом данные\\ML\\1.4\\results_lightgbm_confirm\\ml_v1_4_top5000_test_clients_by_roc_auc_model.csv",
+  "score_model_file": "D:\\Диплом данные\\ML\\1.4\\results_lightgbm_confirm\\ml_v1_4_best_by_roc_auc.joblib",
+  "score_model_name": "lgbm_auc_unweighted_seed2026",
+  "n_total": 101,
+  "n_experiment_1_realistic": 50,
+  "n_experiment_2_enriched": 51,
+  "realistic_fraud_rate_requested": 0.037,
+  "n_realistic_baseline": 45,
+  "n_realistic_inserted_high_risk_fraud": 5,
+  "realistic_high_risk_min_score": 0.8,
+  "realistic_high_risk_skip_top_score": 3,
+  "n_high_risk_true_fraud": 17,
+  "n_control": 17,
+  "n_random_base_rate": 17,
+  "control_score_range_requested": [
+    0.5,
+    0.7
+  ],
+  "control_target_score": 0.6,
+  "control_range_candidate_count": 180,
+  "control_used_fallback": false,
+  "label_counts_by_experiment": {
+    "experiment_1_realistic_flow": {
+      "0": 43,
+      "1": 7
+    },
+    "experiment_2_enriched_risk_zones": {
+      "0": 21,
+      "1": 30
+    }
+  },
+  "label_counts_by_bucket": {
+    "enriched_control_score_0_5_0_7": {
+      "0": 5,
+      "1": 12
+    },
+    "enriched_random_base_rate": {
+      "0": 16,
+      "1": 1
+    },
+    "enriched_true_fraud_high_score": {
+      "1": 17
+    },
+    "realistic_base_rate": {
+      "0": 43,
+      "1": 2
+    },
+    "realistic_inserted_high_risk_fraud": {
+      "1": 5
+    }
+  },
+  "score_summary_by_bucket": {
+    "enriched_control_score_0_5_0_7": {
+      "min": 0.5076696618256608,
+      "median": 0.6099589614833837,
+      "max": 0.6965504671953578
+    },
+    "enriched_random_base_rate": {
+      "min": 0.0010287097938966039,
+      "median": 0.0068880489943298605,
+      "max": 0.06159744671975174
+    },
+    "enriched_true_fraud_high_score": {
+      "min": 0.8986877785139259,
+      "median": 0.9291590770734872,
+      "max": 0.9891500456305995
+    },
+    "realistic_base_rate": {
+      "min": 0.0009889599964965495,
+      "median": 0.009666382774713295,
+      "max": 0.5100154947562139
+    },
+    "realistic_inserted_high_risk_fraud": {
+      "min": 0.8299216961016851,
+      "median": 0.8650735023487462,
+      "max": 0.871512050245577
+    }
+  },
+  "n_missing_fraud_risk_score": 0,
+  "high_risk_true_fraud_source_split_counts": {
+    "test": 17
+  },
+  "control_source_split_counts": {
+    "test": 17
+  },
+  "random_pool": "exclude_top5000",
+  "bucket_design": "experiment_1 = mostly calm base-rate flow plus a few high-score true-fraud insertions; experiment_2 = equal-size high-score true fraud, control-score, and base-rate random groups.",
+  "recommendation": "Analyze experiment 1 and experiment 2 separately. Experiment 1 approximates normal prevalence; experiment 2 is intentionally enriched and must not be used to estimate production block rates."
+}

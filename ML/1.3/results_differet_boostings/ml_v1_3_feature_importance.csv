@@ -1,0 +1,883 @@
+feature,importance,model
+top_email_domain,8.098662730743575,catboost_reference
+tx_amount_sum,7.020658883690219,catboost_reference
+odd_amount_share,6.905918977998616,catboost_reference
+tx_amount_median_proxy,5.4963493080664705,catboost_reference
+tx_amount_mean,5.3360788279508045,catboost_reference
+tx_sum_stanadart_flow_proxy_proxy,3.8809292170157854,catboost_reference
+short_turnover_share,3.83965191000065,catboost_reference
+card4_mode,3.4236822920569665,catboost_reference
+tx_amount_std,2.851383362100093,catboost_reference
+id_20_mode,2.7629211385880272,catboost_reference
+avg_inter_tx_seconds,2.7024086856601617,catboost_reference
+tx_dt_span_days,2.5954591160036995,catboost_reference
+card6_mode,2.543968234414183,catboost_reference
+tx_freq_per_day,2.5134953543303182,catboost_reference
+id_31_mode,2.0535477989455924,catboost_reference
+id_02_mean,1.905137905316664,catboost_reference
+amount_repeat_share,1.8408484423147833,catboost_reference
+tx_sum_high_risk_flow_proxy,1.7731745907663632,catboost_reference
+id_19_mode,1.7363591619615006,catboost_reference
+id_02_median,1.5183040722685215,catboost_reference
+daily_activity_share,1.4972584774577171,catboost_reference
+id_33_mode,1.4866290754694054,catboost_reference
+id_01_mean,1.427221102342107,catboost_reference
+id_30_mode,1.3423179154548146,catboost_reference
+id_17_mode,1.293211560113551,catboost_reference
+tx_count_standart_flow,1.248226484809455,catboost_reference
+id_13_mode,1.1386049890736567,catboost_reference
+id_06_mean,1.0745931861565223,catboost_reference
+crypto_pattern_score,1.0009888720919444,catboost_reference
+num_missing_identity,0.9786867960128991,catboost_reference
+id_12_mode,0.9621564114889177,catboost_reference
+cash_out_ratio_proxy,0.9227754969630891,catboost_reference
+id_36_mode,0.8886310413147266,catboost_reference
+id_34_mode,0.7457478024935765,catboost_reference
+id_14_mode,0.7192496940329497,catboost_reference
+id_05_mean,0.688006759582276,catboost_reference
+id_18_mode,0.6562320904512547,catboost_reference
+id_16_mode,0.6147771410822166,catboost_reference
+id_38_mode,0.6131173416208976,catboost_reference
+id_35_mode,0.5971859208096063,catboost_reference
+id_28_mode,0.591078011654999,catboost_reference
+id_37_mode,0.5647669809717759,catboost_reference
+history_support_score,0.5351086723330151,catboost_reference
+weighted_amount_repeat_share,0.5313844745132036,catboost_reference
+id_05_median,0.5126953393606096,catboost_reference
+id_15_mode,0.5041163118291316,catboost_reference
+non_null_id_values,0.49012216002739784,catboost_reference
+id_29_mode,0.461416967414018,catboost_reference
+id_09_mean,0.45027521580814833,catboost_reference
+id_32_mode,0.40130773403749054,catboost_reference
+addr2_nunique,0.39678426847756937,catboost_reference
+id_01_median,0.39347930507747714,catboost_reference
+high_risk_vs_mean,0.3781138416939862,catboost_reference
+id_10_mean,0.3550261496359583,catboost_reference
+id_10_median,0.3427769293044616,catboost_reference
+id_06_median,0.32358631871317306,catboost_reference
+id_09_median,0.3076743319072367,catboost_reference
+tx_count_total,0.23834435328526127,catboost_reference
+id_09_count,0.23487128598033608,catboost_reference
+MCC_risk_share_proxy,0.22900506488792802,catboost_reference
+low_history_flag,0.17282587423338705,catboost_reference
+id_11_mean,0.15031429316416353,catboost_reference
+tx_count_high_risk_flow,0.14353263897507904,catboost_reference
+device_type_nunique,0.10915825472419284,catboost_reference
+id_10_count,0.09215835557320474,catboost_reference
+id_03_median,0.07845687362940779,catboost_reference
+id_04_mean,0.06767925527904739,catboost_reference
+productcd_nunique,0.052799545264146146,catboost_reference
+id_11_median,0.04980185056196268,catboost_reference
+id_08_count,0.039508387652540444,catboost_reference
+id_04_median,0.024321930399518264,catboost_reference
+id_03_mean,0.019748796977547053,catboost_reference
+id_03_count,0.014169657179974935,catboost_reference
+id_07_count,0.011218690461703713,catboost_reference
+id_06_count,0.009857185472158777,catboost_reference
+id_05_count,0.00924372444586327,catboost_reference
+id_02_count,0.008990134808296657,catboost_reference
+id_04_count,0.006734670657940881,catboost_reference
+identity_rows,0.002987994612024293,catboost_reference
+identity_present,0.0,catboost_reference
+id_01_count,0.0,catboost_reference
+id_11_count,0.0,catboost_reference
+num__tx_amount_mean,5397.0,lightgbm_default
+num__tx_amount_sum,4989.0,lightgbm_default
+num__tx_amount_median_proxy,4960.0,lightgbm_default
+num__avg_inter_tx_seconds,3621.0,lightgbm_default
+num__tx_amount_std,3611.0,lightgbm_default
+num__id_20_mode,3340.0,lightgbm_default
+num__id_19_mode,3294.0,lightgbm_default
+num__tx_dt_span_days,3072.0,lightgbm_default
+num__tx_sum_stanadart_flow_proxy_proxy,3042.0,lightgbm_default
+num__id_02_mean,2902.0,lightgbm_default
+num__id_02_median,2785.0,lightgbm_default
+num__odd_amount_share,1978.0,lightgbm_default
+num__tx_freq_per_day,1961.0,lightgbm_default
+num__crypto_pattern_score,1720.0,lightgbm_default
+num__daily_activity_share,1719.0,lightgbm_default
+num__num_missing_identity,1710.0,lightgbm_default
+num__id_01_mean,1582.0,lightgbm_default
+num__id_06_mean,1580.0,lightgbm_default
+num__amount_repeat_share,1434.0,lightgbm_default
+num__non_null_id_values,1428.0,lightgbm_default
+num__id_05_mean,1365.0,lightgbm_default
+num__tx_sum_high_risk_flow_proxy,1363.0,lightgbm_default
+num__id_13_mode,1227.0,lightgbm_default
+num__short_turnover_share,1219.0,lightgbm_default
+num__high_risk_vs_mean,993.0,lightgbm_default
+num__id_06_median,976.0,lightgbm_default
+num__weighted_amount_repeat_share,905.0,lightgbm_default
+num__MCC_risk_share_proxy,891.0,lightgbm_default
+num__id_14_mode,886.0,lightgbm_default
+num__cash_out_ratio_proxy,847.0,lightgbm_default
+cat__top_email_domain_gmail.com,817.0,lightgbm_default
+cat__card4_mode_mastercard,657.0,lightgbm_default
+num__id_05_median,650.0,lightgbm_default
+num__tx_count_total,628.0,lightgbm_default
+num__id_01_median,623.0,lightgbm_default
+cat__card4_mode_visa,566.0,lightgbm_default
+num__id_11_mean,553.0,lightgbm_default
+num__tx_count_standart_flow,530.0,lightgbm_default
+num__id_17_mode,483.0,lightgbm_default
+num__id_03_count,411.0,lightgbm_default
+cat__top_email_domain_yahoo.com,406.0,lightgbm_default
+cat__top_email_domain_hotmail.com,401.0,lightgbm_default
+cat__top_email_domain_anonymous.com,393.0,lightgbm_default
+num__id_09_count,335.0,lightgbm_default
+cat__top_email_domain_aol.com,260.0,lightgbm_default
+num__id_18_mode,260.0,lightgbm_default
+cat__card6_mode_credit,259.0,lightgbm_default
+num__id_11_median,251.0,lightgbm_default
+cat__id_31_mode_chrome 63.0,244.0,lightgbm_default
+num__id_09_mean,242.0,lightgbm_default
+cat__top_email_domain_MISSING,241.0,lightgbm_default
+cat__card4_mode_discover,221.0,lightgbm_default
+cat__id_30_mode_Windows 7,214.0,lightgbm_default
+cat__id_38_mode_F,210.0,lightgbm_default
+cat__id_33_mode_1366x768,196.0,lightgbm_default
+cat__id_33_mode_1920x1080,185.0,lightgbm_default
+cat__id_33_mode_2208x1242,177.0,lightgbm_default
+cat__id_31_mode_ie 11.0 for desktop,174.0,lightgbm_default
+cat__id_34_mode_match_status:2,173.0,lightgbm_default
+cat__id_31_mode_chrome 62.0,168.0,lightgbm_default
+cat__id_12_mode_Found,160.0,lightgbm_default
+cat__id_30_mode_Windows 10,157.0,lightgbm_default
+num__device_type_nunique,151.0,lightgbm_default
+num__addr2_nunique,139.0,lightgbm_default
+num__id_03_mean,138.0,lightgbm_default
+num__id_32_mode,135.0,lightgbm_default
+cat__id_37_mode_F,133.0,lightgbm_default
+cat__id_31_mode_mobile safari 11.0,128.0,lightgbm_default
+cat__id_16_mode_NotFound,124.0,lightgbm_default
+cat__top_email_domain_icloud.com,122.0,lightgbm_default
+cat__id_31_mode_chrome generic,121.0,lightgbm_default
+cat__top_email_domain_outlook.com,121.0,lightgbm_default
+cat__id_31_mode_safari generic,120.0,lightgbm_default
+cat__id_33_mode_1280x720,113.0,lightgbm_default
+cat__id_30_mode_iOS 11.1.2,112.0,lightgbm_default
+cat__id_31_mode_firefox,111.0,lightgbm_default
+cat__id_29_mode_Found,108.0,lightgbm_default
+num__id_05_count,107.0,lightgbm_default
+cat__id_33_mode_2048x1536,105.0,lightgbm_default
+cat__id_31_mode_mobile safari generic,105.0,lightgbm_default
+cat__id_15_mode_New,103.0,lightgbm_default
+cat__id_37_mode_T,103.0,lightgbm_default
+cat__id_34_mode_match_status:1,101.0,lightgbm_default
+cat__id_31_mode_infrequent_sklearn,97.0,lightgbm_default
+cat__top_email_domain_mail.com,96.0,lightgbm_default
+cat__id_16_mode_Found,95.0,lightgbm_default
+num__tx_count_high_risk_flow,89.0,lightgbm_default
+num__id_04_mean,88.0,lightgbm_default
+cat__id_33_mode_2436x1125,85.0,lightgbm_default
+cat__card4_mode_american express,85.0,lightgbm_default
+cat__id_30_mode_Mac OS X 10_12_6,83.0,lightgbm_default
+cat__id_12_mode_NotFound,83.0,lightgbm_default
+cat__id_31_mode_mobile safari 10.0,83.0,lightgbm_default
+cat__id_38_mode_T,81.0,lightgbm_default
+cat__top_email_domain_att.net,80.0,lightgbm_default
+num__id_09_median,78.0,lightgbm_default
+cat__id_15_mode_Found,77.0,lightgbm_default
+cat__id_30_mode_iOS 11.2.1,75.0,lightgbm_default
+cat__id_31_mode_chrome 65.0,75.0,lightgbm_default
+cat__top_email_domain_rocketmail.com,70.0,lightgbm_default
+cat__top_email_domain_sbcglobal.net,70.0,lightgbm_default
+cat__id_30_mode_iOS 11.2.6,70.0,lightgbm_default
+cat__id_31_mode_edge 15.0,69.0,lightgbm_default
+num__id_10_median,69.0,lightgbm_default
+cat__id_30_mode_Mac OS X 10_10_5,69.0,lightgbm_default
+cat__id_31_mode_chrome 65.0 for android,68.0,lightgbm_default
+cat__id_31_mode_edge 16.0,67.0,lightgbm_default
+cat__id_31_mode_chrome 63.0 for android,65.0,lightgbm_default
+cat__top_email_domain_optonline.net,63.0,lightgbm_default
+cat__id_31_mode_chrome 62.0 for android,63.0,lightgbm_default
+num__id_07_count,62.0,lightgbm_default
+cat__top_email_domain_ymail.com,62.0,lightgbm_default
+num__id_10_mean,61.0,lightgbm_default
+cat__id_31_mode_chrome 64.0,61.0,lightgbm_default
+cat__id_31_mode_chrome 66.0,60.0,lightgbm_default
+cat__id_30_mode_Mac OS X 10_13_1,60.0,lightgbm_default
+cat__id_30_mode_iOS 11.2.2,59.0,lightgbm_default
+cat__id_30_mode_Mac OS X 10_11_6,58.0,lightgbm_default
+cat__id_33_mode_2560x1440,57.0,lightgbm_default
+cat__top_email_domain_comcast.net,57.0,lightgbm_default
+cat__id_30_mode_Android,56.0,lightgbm_default
+cat__id_33_mode_1600x900,56.0,lightgbm_default
+cat__id_31_mode_firefox 57.0,55.0,lightgbm_default
+cat__top_email_domain_me.com,55.0,lightgbm_default
+cat__id_28_mode_Found,55.0,lightgbm_default
+cat__id_33_mode_1280x800,55.0,lightgbm_default
+cat__top_email_domain_msn.com,54.0,lightgbm_default
+cat__id_30_mode_Android 7.0,54.0,lightgbm_default
+cat__top_email_domain_live.com.mx,52.0,lightgbm_default
+cat__id_30_mode_iOS 11.3.0,52.0,lightgbm_default
+cat__id_31_mode_ie 11.0 for tablet,51.0,lightgbm_default
+num__productcd_nunique,51.0,lightgbm_default
+cat__id_33_mode_3360x2100,47.0,lightgbm_default
+cat__id_31_mode_safari 11.0,45.0,lightgbm_default
+cat__top_email_domain_charter.net,44.0,lightgbm_default
+num__history_support_score,42.0,lightgbm_default
+cat__id_30_mode_Android 8.0.0,42.0,lightgbm_default
+cat__id_30_mode_MISSING,42.0,lightgbm_default
+cat__top_email_domain_yahoo.com.mx,41.0,lightgbm_default
+cat__id_31_mode_firefox 59.0,41.0,lightgbm_default
+num__id_04_count,41.0,lightgbm_default
+cat__id_33_mode_infrequent_sklearn,40.0,lightgbm_default
+cat__id_15_mode_Unknown,40.0,lightgbm_default
+cat__id_33_mode_1440x900,39.0,lightgbm_default
+cat__id_30_mode_iOS 11.2.0,39.0,lightgbm_default
+cat__id_35_mode_F,39.0,lightgbm_default
+num__identity_rows,38.0,lightgbm_default
+cat__top_email_domain_bellsouth.net,38.0,lightgbm_default
+cat__id_31_mode_firefox 58.0,36.0,lightgbm_default
+num__id_02_count,36.0,lightgbm_default
+cat__id_30_mode_Mac OS X 10_13_2,35.0,lightgbm_default
+cat__id_30_mode_Windows 8.1,35.0,lightgbm_default
+cat__id_33_mode_MISSING,34.0,lightgbm_default
+cat__id_33_mode_1334x750,33.0,lightgbm_default
+cat__id_29_mode_NotFound,32.0,lightgbm_default
+cat__top_email_domain_verizon.net,31.0,lightgbm_default
+num__id_10_count,31.0,lightgbm_default
+cat__id_33_mode_2880x1800,30.0,lightgbm_default
+cat__top_email_domain_live.com,30.0,lightgbm_default
+cat__card6_mode_debit,30.0,lightgbm_default
+cat__id_16_mode_MISSING,30.0,lightgbm_default
+cat__id_30_mode_iOS 11.0.3,29.0,lightgbm_default
+cat__id_31_mode_chrome 64.0 for android,28.0,lightgbm_default
+cat__id_36_mode_T,27.0,lightgbm_default
+cat__top_email_domain_cox.net,27.0,lightgbm_default
+cat__id_33_mode_2220x1080,27.0,lightgbm_default
+cat__id_33_mode_1680x1050,26.0,lightgbm_default
+cat__id_36_mode_F,25.0,lightgbm_default
+cat__id_31_mode_samsung browser 6.2,24.0,lightgbm_default
+cat__id_30_mode_Android 5.1.1,23.0,lightgbm_default
+cat__id_31_mode_mobile safari 9.0,23.0,lightgbm_default
+cat__id_30_mode_infrequent_sklearn,22.0,lightgbm_default
+cat__id_28_mode_New,22.0,lightgbm_default
+cat__id_33_mode_2732x2048,22.0,lightgbm_default
+cat__id_31_mode_chrome 49.0,21.0,lightgbm_default
+cat__id_33_mode_1280x1024,20.0,lightgbm_default
+cat__id_30_mode_Linux,19.0,lightgbm_default
+cat__id_31_mode_edge 14.0,19.0,lightgbm_default
+cat__top_email_domain_mac.com,19.0,lightgbm_default
+cat__id_34_mode_MISSING,19.0,lightgbm_default
+cat__id_31_mode_chrome,18.0,lightgbm_default
+cat__id_31_mode_firefox 52.0,17.0,lightgbm_default
+cat__id_30_mode_Mac OS X 10_13_3,17.0,lightgbm_default
+cat__id_35_mode_T,16.0,lightgbm_default
+cat__id_33_mode_2560x1600,16.0,lightgbm_default
+cat__id_31_mode_chrome 61.0,14.0,lightgbm_default
+cat__id_33_mode_1920x1200,14.0,lightgbm_default
+cat__id_33_mode_1024x768,12.0,lightgbm_default
+cat__id_31_mode_chrome 66.0 for android,11.0,lightgbm_default
+cat__id_30_mode_iOS 9.3.5,10.0,lightgbm_default
+cat__card4_mode_MISSING,10.0,lightgbm_default
+cat__id_30_mode_Mac OS X 10.13,10.0,lightgbm_default
+cat__id_30_mode_iOS 11.2.5,10.0,lightgbm_default
+num__id_06_count,10.0,lightgbm_default
+cat__id_34_mode_match_status:0,10.0,lightgbm_default
+cat__id_33_mode_1136x640,9.0,lightgbm_default
+cat__id_30_mode_Mac OS X 10_13_4,9.0,lightgbm_default
+cat__id_30_mode_Mac,8.0,lightgbm_default
+num__low_history_flag,7.0,lightgbm_default
+num__id_03_median,7.0,lightgbm_default
+num__tx_amount_median_proxy,5012.0,lightgbm_tuned_small
+num__tx_amount_mean,4603.0,lightgbm_tuned_small
+num__tx_amount_sum,4145.0,lightgbm_tuned_small
+num__tx_amount_std,3504.0,lightgbm_tuned_small
+num__avg_inter_tx_seconds,3206.0,lightgbm_tuned_small
+num__id_20_mode,3159.0,lightgbm_tuned_small
+num__id_19_mode,3002.0,lightgbm_tuned_small
+num__tx_sum_stanadart_flow_proxy_proxy,2865.0,lightgbm_tuned_small
+num__tx_dt_span_days,2732.0,lightgbm_tuned_small
+num__id_02_median,2604.0,lightgbm_tuned_small
+num__id_02_mean,2563.0,lightgbm_tuned_small
+num__tx_freq_per_day,1842.0,lightgbm_tuned_small
+num__odd_amount_share,1759.0,lightgbm_tuned_small
+num__daily_activity_share,1646.0,lightgbm_tuned_small
+num__crypto_pattern_score,1641.0,lightgbm_tuned_small
+num__num_missing_identity,1571.0,lightgbm_tuned_small
+num__non_null_id_values,1512.0,lightgbm_tuned_small
+num__id_01_mean,1510.0,lightgbm_tuned_small
+num__id_06_mean,1349.0,lightgbm_tuned_small
+num__tx_sum_high_risk_flow_proxy,1313.0,lightgbm_tuned_small
+num__id_05_mean,1248.0,lightgbm_tuned_small
+num__id_13_mode,1243.0,lightgbm_tuned_small
+num__short_turnover_share,1202.0,lightgbm_tuned_small
+num__amount_repeat_share,1194.0,lightgbm_tuned_small
+num__id_06_median,1092.0,lightgbm_tuned_small
+num__high_risk_vs_mean,1074.0,lightgbm_tuned_small
+num__weighted_amount_repeat_share,842.0,lightgbm_tuned_small
+num__MCC_risk_share_proxy,826.0,lightgbm_tuned_small
+num__id_14_mode,825.0,lightgbm_tuned_small
+num__cash_out_ratio_proxy,777.0,lightgbm_tuned_small
+cat__top_email_domain_gmail.com,766.0,lightgbm_tuned_small
+num__id_05_median,678.0,lightgbm_tuned_small
+num__id_01_median,639.0,lightgbm_tuned_small
+cat__card4_mode_mastercard,574.0,lightgbm_tuned_small
+num__id_17_mode,554.0,lightgbm_tuned_small
+num__tx_count_total,550.0,lightgbm_tuned_small
+num__tx_count_standart_flow,547.0,lightgbm_tuned_small
+num__id_11_mean,526.0,lightgbm_tuned_small
+cat__card4_mode_visa,426.0,lightgbm_tuned_small
+num__id_03_count,374.0,lightgbm_tuned_small
+num__id_09_count,364.0,lightgbm_tuned_small
+cat__top_email_domain_yahoo.com,326.0,lightgbm_tuned_small
+cat__top_email_domain_anonymous.com,309.0,lightgbm_tuned_small
+num__id_18_mode,301.0,lightgbm_tuned_small
+cat__card6_mode_credit,265.0,lightgbm_tuned_small
+num__id_11_median,254.0,lightgbm_tuned_small
+cat__top_email_domain_hotmail.com,250.0,lightgbm_tuned_small
+cat__id_31_mode_chrome 63.0,249.0,lightgbm_tuned_small
+cat__id_30_mode_Windows 7,245.0,lightgbm_tuned_small
+cat__top_email_domain_MISSING,226.0,lightgbm_tuned_small
+num__id_09_mean,225.0,lightgbm_tuned_small
+cat__top_email_domain_aol.com,207.0,lightgbm_tuned_small
+cat__id_33_mode_1920x1080,202.0,lightgbm_tuned_small
+cat__card4_mode_discover,198.0,lightgbm_tuned_small
+cat__id_33_mode_2208x1242,192.0,lightgbm_tuned_small
+cat__id_38_mode_F,191.0,lightgbm_tuned_small
+cat__id_30_mode_Windows 10,191.0,lightgbm_tuned_small
+cat__id_31_mode_ie 11.0 for desktop,187.0,lightgbm_tuned_small
+cat__id_33_mode_1366x768,178.0,lightgbm_tuned_small
+cat__id_31_mode_chrome 62.0,175.0,lightgbm_tuned_small
+cat__id_34_mode_match_status:2,165.0,lightgbm_tuned_small
+cat__id_12_mode_Found,163.0,lightgbm_tuned_small
+num__device_type_nunique,155.0,lightgbm_tuned_small
+cat__id_30_mode_iOS 11.1.2,150.0,lightgbm_tuned_small
+cat__id_37_mode_F,147.0,lightgbm_tuned_small
+cat__id_16_mode_NotFound,143.0,lightgbm_tuned_small
+cat__top_email_domain_icloud.com,137.0,lightgbm_tuned_small
+cat__id_31_mode_firefox,130.0,lightgbm_tuned_small
+cat__top_email_domain_outlook.com,128.0,lightgbm_tuned_small
+cat__id_31_mode_mobile safari 11.0,122.0,lightgbm_tuned_small
+num__id_05_count,121.0,lightgbm_tuned_small
+num__addr2_nunique,120.0,lightgbm_tuned_small
+cat__id_37_mode_T,119.0,lightgbm_tuned_small
+cat__id_31_mode_safari generic,117.0,lightgbm_tuned_small
+num__id_32_mode,116.0,lightgbm_tuned_small
+cat__top_email_domain_mail.com,115.0,lightgbm_tuned_small
+cat__id_31_mode_mobile safari generic,114.0,lightgbm_tuned_small
+cat__top_email_domain_rocketmail.com,111.0,lightgbm_tuned_small
+cat__id_38_mode_T,111.0,lightgbm_tuned_small
+cat__id_34_mode_match_status:1,109.0,lightgbm_tuned_small
+cat__id_31_mode_chrome generic,107.0,lightgbm_tuned_small
+cat__id_31_mode_infrequent_sklearn,103.0,lightgbm_tuned_small
+cat__id_15_mode_Found,103.0,lightgbm_tuned_small
+cat__id_15_mode_New,103.0,lightgbm_tuned_small
+num__id_04_mean,99.0,lightgbm_tuned_small
+cat__id_30_mode_Mac OS X 10_12_6,95.0,lightgbm_tuned_small
+num__id_09_median,93.0,lightgbm_tuned_small
+cat__id_33_mode_2048x1536,91.0,lightgbm_tuned_small
+cat__id_30_mode_iOS 11.2.6,90.0,lightgbm_tuned_small
+cat__id_33_mode_1280x720,88.0,lightgbm_tuned_small
+cat__id_31_mode_edge 16.0,87.0,lightgbm_tuned_small
+cat__top_email_domain_sbcglobal.net,86.0,lightgbm_tuned_small
+cat__id_31_mode_chrome 65.0 for android,85.0,lightgbm_tuned_small
+cat__card4_mode_american express,85.0,lightgbm_tuned_small
+cat__id_30_mode_Mac OS X 10_10_5,84.0,lightgbm_tuned_small
+num__tx_count_high_risk_flow,84.0,lightgbm_tuned_small
+cat__id_29_mode_Found,80.0,lightgbm_tuned_small
+cat__id_31_mode_chrome 62.0 for android,80.0,lightgbm_tuned_small
+cat__id_31_mode_chrome 65.0,79.0,lightgbm_tuned_small
+cat__id_33_mode_2436x1125,78.0,lightgbm_tuned_small
+cat__top_email_domain_att.net,78.0,lightgbm_tuned_small
+cat__id_30_mode_Android,75.0,lightgbm_tuned_small
+cat__id_31_mode_chrome 63.0 for android,75.0,lightgbm_tuned_small
+num__id_10_mean,73.0,lightgbm_tuned_small
+cat__id_30_mode_infrequent_sklearn,73.0,lightgbm_tuned_small
+cat__id_31_mode_mobile safari 10.0,71.0,lightgbm_tuned_small
+cat__id_33_mode_1600x900,70.0,lightgbm_tuned_small
+cat__top_email_domain_optonline.net,70.0,lightgbm_tuned_small
+cat__id_33_mode_2560x1440,69.0,lightgbm_tuned_small
+cat__top_email_domain_me.com,68.0,lightgbm_tuned_small
+cat__top_email_domain_comcast.net,68.0,lightgbm_tuned_small
+cat__id_30_mode_Mac OS X 10_11_6,67.0,lightgbm_tuned_small
+cat__id_30_mode_iOS 11.2.1,64.0,lightgbm_tuned_small
+cat__id_30_mode_iOS 11.3.0,62.0,lightgbm_tuned_small
+cat__top_email_domain_charter.net,62.0,lightgbm_tuned_small
+cat__id_31_mode_edge 15.0,61.0,lightgbm_tuned_small
+cat__id_31_mode_chrome 66.0,60.0,lightgbm_tuned_small
+cat__id_30_mode_Android 8.0.0,59.0,lightgbm_tuned_small
+cat__id_31_mode_chrome 64.0,56.0,lightgbm_tuned_small
+cat__id_31_mode_firefox 57.0,56.0,lightgbm_tuned_small
+cat__top_email_domain_msn.com,55.0,lightgbm_tuned_small
+cat__id_33_mode_3360x2100,55.0,lightgbm_tuned_small
+num__id_07_count,54.0,lightgbm_tuned_small
+cat__id_30_mode_Mac OS X 10_13_1,54.0,lightgbm_tuned_small
+cat__card6_mode_debit,52.0,lightgbm_tuned_small
+cat__id_12_mode_NotFound,51.0,lightgbm_tuned_small
+cat__id_30_mode_Android 7.0,50.0,lightgbm_tuned_small
+num__id_10_count,49.0,lightgbm_tuned_small
+cat__id_28_mode_Found,49.0,lightgbm_tuned_small
+cat__top_email_domain_yahoo.com.mx,48.0,lightgbm_tuned_small
+num__id_04_count,48.0,lightgbm_tuned_small
+cat__id_33_mode_infrequent_sklearn,46.0,lightgbm_tuned_small
+num__id_02_count,45.0,lightgbm_tuned_small
+cat__id_33_mode_2220x1080,44.0,lightgbm_tuned_small
+num__id_10_median,44.0,lightgbm_tuned_small
+cat__id_16_mode_MISSING,43.0,lightgbm_tuned_small
+cat__id_31_mode_firefox 59.0,42.0,lightgbm_tuned_small
+cat__id_16_mode_Found,42.0,lightgbm_tuned_small
+cat__id_29_mode_NotFound,41.0,lightgbm_tuned_small
+cat__id_33_mode_1280x800,41.0,lightgbm_tuned_small
+cat__top_email_domain_bellsouth.net,40.0,lightgbm_tuned_small
+cat__id_30_mode_iOS 11.2.0,40.0,lightgbm_tuned_small
+cat__id_31_mode_ie 11.0 for tablet,40.0,lightgbm_tuned_small
+cat__id_31_mode_safari 11.0,40.0,lightgbm_tuned_small
+cat__id_36_mode_T,40.0,lightgbm_tuned_small
+cat__id_35_mode_F,38.0,lightgbm_tuned_small
+cat__id_34_mode_MISSING,38.0,lightgbm_tuned_small
+cat__id_36_mode_F,38.0,lightgbm_tuned_small
+cat__id_33_mode_1334x750,37.0,lightgbm_tuned_small
+cat__id_33_mode_1440x900,37.0,lightgbm_tuned_small
+cat__id_30_mode_iOS 11.2.2,37.0,lightgbm_tuned_small
+cat__id_30_mode_Mac OS X 10_13_2,36.0,lightgbm_tuned_small
+cat__id_33_mode_MISSING,35.0,lightgbm_tuned_small
+cat__id_30_mode_MISSING,35.0,lightgbm_tuned_small
+cat__id_31_mode_chrome 64.0 for android,35.0,lightgbm_tuned_small
+cat__top_email_domain_cox.net,35.0,lightgbm_tuned_small
+num__productcd_nunique,34.0,lightgbm_tuned_small
+cat__id_30_mode_iOS 11.0.3,33.0,lightgbm_tuned_small
+cat__id_15_mode_Unknown,33.0,lightgbm_tuned_small
+cat__top_email_domain_verizon.net,33.0,lightgbm_tuned_small
+cat__id_33_mode_1920x1200,32.0,lightgbm_tuned_small
+cat__id_30_mode_Windows 8.1,31.0,lightgbm_tuned_small
+cat__id_31_mode_mobile safari 9.0,30.0,lightgbm_tuned_small
+cat__id_33_mode_1280x1024,30.0,lightgbm_tuned_small
+cat__top_email_domain_ymail.com,29.0,lightgbm_tuned_small
+cat__id_33_mode_1680x1050,28.0,lightgbm_tuned_small
+cat__top_email_domain_live.com,27.0,lightgbm_tuned_small
+cat__id_33_mode_2880x1800,27.0,lightgbm_tuned_small
+num__id_03_median,27.0,lightgbm_tuned_small
+num__history_support_score,26.0,lightgbm_tuned_small
+num__id_03_mean,26.0,lightgbm_tuned_small
+num__identity_rows,26.0,lightgbm_tuned_small
+cat__id_30_mode_Linux,25.0,lightgbm_tuned_small
+cat__id_30_mode_Android 5.1.1,23.0,lightgbm_tuned_small
+cat__id_33_mode_2001x1125,23.0,lightgbm_tuned_small
+cat__id_31_mode_samsung browser 6.2,21.0,lightgbm_tuned_small
+cat__id_30_mode_iOS 9.3.5,20.0,lightgbm_tuned_small
+cat__id_31_mode_firefox 58.0,19.0,lightgbm_tuned_small
+cat__id_33_mode_1024x768,19.0,lightgbm_tuned_small
+num__id_06_count,18.0,lightgbm_tuned_small
+cat__id_28_mode_New,17.0,lightgbm_tuned_small
+cat__id_31_mode_chrome 61.0,17.0,lightgbm_tuned_small
+cat__id_33_mode_1136x640,15.0,lightgbm_tuned_small
+cat__id_31_mode_chrome 49.0,14.0,lightgbm_tuned_small
+cat__id_33_mode_2560x1600,13.0,lightgbm_tuned_small
+cat__id_30_mode_iOS 11.1.1,12.0,lightgbm_tuned_small
+cat__card4_mode_MISSING,12.0,lightgbm_tuned_small
+cat__id_30_mode_Mac OS X 10_13_3,11.0,lightgbm_tuned_small
+num__identity_present,11.0,lightgbm_tuned_small
+cat__id_30_mode_iOS 11.2.5,8.0,lightgbm_tuned_small
+cat__id_34_mode_match_status:0,7.0,lightgbm_tuned_small
+cat__top_email_domain_earthlink.net,7.0,lightgbm_tuned_small
+num__low_history_flag,6.0,lightgbm_tuned_small
+cat__id_15_mode_MISSING,6.0,lightgbm_tuned_small
+cat__id_35_mode_T,6.0,lightgbm_tuned_small
+num__id_08_count,6.0,lightgbm_tuned_small
+cat__id_31_mode_chrome 66.0 for android,4.0,lightgbm_tuned_small
+cat__id_30_mode_Mac OS X 10_13_4,3.0,lightgbm_tuned_small
+cat__id_30_mode_Android 7.1.1,2.0,lightgbm_tuned_small
+cat__id_31_mode_MISSING,2.0,lightgbm_tuned_small
+cat__id_36_mode_F,0.1536775380373001,xgboost_default
+num__id_04_count,0.12280791252851486,xgboost_default
+num__id_03_count,0.05062482878565788,xgboost_default
+cat__id_38_mode_F,0.033703651279211044,xgboost_default
+cat__id_34_mode_match_status:2,0.02590959705412388,xgboost_default
+num__id_17_mode,0.02120968885719776,xgboost_default
+num__tx_sum_high_risk_flow_proxy,0.016200559213757515,xgboost_default
+cat__id_38_mode_T,0.009613050147891045,xgboost_default
+cat__id_35_mode_F,0.009513191878795624,xgboost_default
+num__history_support_score,0.007463354151695967,xgboost_default
+num__avg_inter_tx_seconds,0.007084896322339773,xgboost_default
+cat__id_29_mode_Found,0.00690519018098712,xgboost_default
+num__tx_sum_stanadart_flow_proxy_proxy,0.006452609319239855,xgboost_default
+cat__id_31_mode_ie 11.0 for desktop,0.006236912216991186,xgboost_default
+cat__top_email_domain_anonymous.com,0.006098720710724592,xgboost_default
+cat__id_31_mode_chrome 62.0,0.005466564558446407,xgboost_default
+num__cash_out_ratio_proxy,0.005289682652801275,xgboost_default
+cat__id_33_mode_2208x1242,0.005127316806465387,xgboost_default
+num__id_01_mean,0.004956736695021391,xgboost_default
+cat__id_33_mode_2048x1536,0.004882370121777058,xgboost_default
+cat__card4_mode_american express,0.004739692900329828,xgboost_default
+cat__top_email_domain_outlook.com,0.004687412641942501,xgboost_default
+num__short_turnover_share,0.004663499537855387,xgboost_default
+cat__id_31_mode_safari generic,0.004583923611789942,xgboost_default
+cat__top_email_domain_gmail.com,0.004402816761285067,xgboost_default
+cat__id_30_mode_MISSING,0.0042928969487547874,xgboost_default
+cat__card6_mode_credit,0.0041703879833221436,xgboost_default
+cat__card6_mode_debit,0.004170337691903114,xgboost_default
+num__id_09_count,0.00410721730440855,xgboost_default
+num__odd_amount_share,0.0040130577981472015,xgboost_default
+cat__top_email_domain_mail.com,0.003999446518719196,xgboost_default
+cat__id_29_mode_NotFound,0.0039476132951676846,xgboost_default
+num__id_32_mode,0.0038277662824839354,xgboost_default
+num__id_10_count,0.0037707891315221786,xgboost_default
+cat__id_36_mode_T,0.003668131772428751,xgboost_default
+num__id_05_mean,0.0035320541355758905,xgboost_default
+cat__id_33_mode_2560x1440,0.003528339322656393,xgboost_default
+cat__id_33_mode_1280x720,0.0035271989181637764,xgboost_default
+num__id_09_mean,0.003458998864516616,xgboost_default
+num__id_14_mode,0.0034490074031054974,xgboost_default
+num__tx_amount_mean,0.0034186681732535362,xgboost_default
+cat__id_30_mode_Mac OS X 10_12_6,0.003410011762753129,xgboost_default
+num__id_06_mean,0.0034003769978880882,xgboost_default
+num__tx_count_standart_flow,0.0033568651415407658,xgboost_default
+cat__id_30_mode_Windows 7,0.003339440329000354,xgboost_default
+cat__id_33_mode_855x480,0.003310160245746374,xgboost_default
+cat__id_31_mode_firefox,0.003273298731073737,xgboost_default
+cat__id_15_mode_Unknown,0.003197481855750084,xgboost_default
+cat__id_31_mode_infrequent_sklearn,0.0031494684517383575,xgboost_default
+num__id_02_median,0.0031228570733219385,xgboost_default
+cat__id_31_mode_chrome generic,0.0030976601410657167,xgboost_default
+cat__card4_mode_discover,0.003060871036723256,xgboost_default
+num__tx_amount_sum,0.003058655885979533,xgboost_default
+cat__top_email_domain_hotmail.com,0.003016128670424223,xgboost_default
+num__tx_count_total,0.002931765979155898,xgboost_default
+cat__id_34_mode_MISSING,0.002900268416851759,xgboost_default
+cat__id_31_mode_MISSING,0.002897645579650998,xgboost_default
+cat__top_email_domain_att.net,0.0028821032028645277,xgboost_default
+cat__id_33_mode_1600x900,0.0028708186000585556,xgboost_default
+cat__id_30_mode_Windows 8,0.0028664092533290386,xgboost_default
+cat__top_email_domain_protonmail.com,0.002854697173461318,xgboost_default
+cat__id_16_mode_MISSING,0.002852504840120673,xgboost_default
+cat__id_31_mode_chrome 63.0,0.0027533273678272963,xgboost_default
+num__id_20_mode,0.0027428697794675827,xgboost_default
+cat__id_30_mode_iOS 11.2.2,0.002737009432166815,xgboost_default
+cat__id_33_mode_1920x1080,0.0027274766471236944,xgboost_default
+cat__id_33_mode_2880x1800,0.0026735891588032246,xgboost_default
+cat__id_33_mode_1440x900,0.002608127659186721,xgboost_default
+cat__id_30_mode_iOS 10.3.1,0.0025709480978548527,xgboost_default
+num__id_02_mean,0.00254390062764287,xgboost_default
+num__id_05_median,0.0025240089744329453,xgboost_default
+cat__id_31_mode_firefox 58.0,0.0025236899964511395,xgboost_default
+num__tx_freq_per_day,0.0025098284240812063,xgboost_default
+num__tx_amount_median_proxy,0.0024966520722955465,xgboost_default
+num__high_risk_vs_mean,0.0024894678499549627,xgboost_default
+num__tx_dt_span_days,0.002473010215908289,xgboost_default
+cat__id_12_mode_NotFound,0.002469352912157774,xgboost_default
+cat__id_30_mode_iOS 11.1.2,0.0024692267179489136,xgboost_default
+cat__top_email_domain_MISSING,0.0024529052898287773,xgboost_default
+num__non_null_id_values,0.0024305889382958412,xgboost_default
+num__device_type_nunique,0.0023869979195296764,xgboost_default
+num__daily_activity_share,0.002378916833549738,xgboost_default
+cat__top_email_domain_rocketmail.com,0.002371434587985277,xgboost_default
+cat__id_33_mode_1680x1050,0.0023595744278281927,xgboost_default
+cat__id_31_mode_mobile safari generic,0.002347983419895172,xgboost_default
+cat__id_31_mode_ie 11.0 for tablet,0.0023424786049872637,xgboost_default
+cat__id_31_mode_edge 15.0,0.002339697675779462,xgboost_default
+cat__id_30_mode_Windows 10,0.0023222786840051413,xgboost_default
+cat__id_31_mode_mobile safari 10.0,0.0023115118965506554,xgboost_default
+num__id_18_mode,0.002304757945239544,xgboost_default
+num__num_missing_identity,0.002303250366821885,xgboost_default
+cat__id_33_mode_1366x768,0.0022357243578881025,xgboost_default
+num__weighted_amount_repeat_share,0.0022024994250386953,xgboost_default
+cat__id_33_mode_2961x1442,0.002191792707890272,xgboost_default
+cat__top_email_domain_icloud.com,0.0021881815046072006,xgboost_default
+num__id_13_mode,0.002187030389904976,xgboost_default
+cat__top_email_domain_aol.com,0.0021714777685701847,xgboost_default
+cat__id_16_mode_NotFound,0.0021281593944877386,xgboost_default
+cat__id_37_mode_F,0.0021126612555235624,xgboost_default
+cat__id_30_mode_Mac OS X 10_11_6,0.0020909623708575964,xgboost_default
+cat__id_30_mode_Android 4.4.2,0.002083310391753912,xgboost_default
+cat__id_30_mode_iOS 11.3.0,0.002073761774227023,xgboost_default
+num__tx_amount_std,0.0020721876062452793,xgboost_default
+cat__top_email_domain_ymail.com,0.002059013582766056,xgboost_default
+num__low_history_flag,0.0020554049406200647,xgboost_default
+cat__id_16_mode_Found,0.0020388842094689608,xgboost_default
+cat__top_email_domain_sbcglobal.net,0.0020235376432538033,xgboost_default
+num__id_06_median,0.002017674734815955,xgboost_default
+cat__id_33_mode_1280x1024,0.002016489626839757,xgboost_default
+cat__top_email_domain_hotmail.fr,0.0020092171616852283,xgboost_default
+cat__id_31_mode_chrome 62.0 for android,0.0019831594545394182,xgboost_default
+num__crypto_pattern_score,0.0019787531346082687,xgboost_default
+cat__id_31_mode_chrome 66.0 for ios,0.0019763235468417406,xgboost_default
+num__amount_repeat_share,0.0019601709209382534,xgboost_default
+num__id_10_median,0.001939223031513393,xgboost_default
+cat__id_31_mode_chrome 66.0,0.0019297118997201324,xgboost_default
+cat__id_30_mode_iOS 11.2.6,0.0019174778135493398,xgboost_default
+cat__id_33_mode_3840x2160,0.0019164171535521746,xgboost_default
+cat__id_12_mode_Found,0.0018813635688275099,xgboost_default
+cat__id_30_mode_iOS 11.2.1,0.0018714148318395019,xgboost_default
+cat__id_31_mode_firefox 59.0,0.0018635913729667664,xgboost_default
+cat__id_33_mode_2560x1600,0.0018600665498524904,xgboost_default
+num__id_19_mode,0.0018596008885651827,xgboost_default
+cat__id_30_mode_iOS 10.0.2,0.0018571278778836131,xgboost_default
+cat__top_email_domain_yahoo.com,0.0018540009623393416,xgboost_default
+cat__id_30_mode_iOS 10.2.1,0.0018516171257942915,xgboost_default
+cat__top_email_domain_comcast.net,0.001844707177951932,xgboost_default
+cat__id_33_mode_1920x1200,0.0018428489565849304,xgboost_default
+cat__id_31_mode_mobile safari 11.0,0.0018419356783851981,xgboost_default
+cat__top_email_domain_me.com,0.0018399395048618317,xgboost_default
+cat__id_30_mode_Mac OS X 10_13_2,0.0018389321630820632,xgboost_default
+cat__top_email_domain_suddenlink.net,0.0018334600608795881,xgboost_default
+cat__id_28_mode_Found,0.001831171102821827,xgboost_default
+cat__id_31_mode_samsung browser 6.2,0.0018256697803735733,xgboost_default
+num__identity_rows,0.0018160472391173244,xgboost_default
+cat__id_33_mode_2220x1080,0.0018012219807133079,xgboost_default
+cat__id_30_mode_Windows 8.1,0.0017792327562347054,xgboost_default
+cat__id_31_mode_android webview 4.0,0.0017735942965373397,xgboost_default
+cat__id_30_mode_Android 8.0.0,0.001765844994224608,xgboost_default
+cat__top_email_domain_web.de,0.0017619244754314423,xgboost_default
+cat__id_30_mode_iOS 11.1.0,0.0017589570488780737,xgboost_default
+cat__id_30_mode_Mac OS X 10_10_5,0.001756969839334488,xgboost_default
+cat__top_email_domain_charter.net,0.001754990080371499,xgboost_default
+cat__id_15_mode_New,0.0017538663232699037,xgboost_default
+cat__id_31_mode_chrome 63.0 for android,0.0017463667318224907,xgboost_default
+cat__id_30_mode_infrequent_sklearn,0.0017382255755364895,xgboost_default
+num__id_08_count,0.0017333778087049723,xgboost_default
+cat__card4_mode_mastercard,0.0017310871044173837,xgboost_default
+cat__id_31_mode_firefox generic,0.0017287484370172024,xgboost_default
+num__id_01_count,0.0017026708228513598,xgboost_default
+cat__top_email_domain_cox.net,0.0016952197765931487,xgboost_default
+num__addr2_nunique,0.001687672222033143,xgboost_default
+num__id_02_count,0.001679199980571866,xgboost_default
+cat__id_34_mode_match_status:1,0.0016779381548985839,xgboost_default
+cat__id_30_mode_Mac OS X 10_13_1,0.0016753914533182979,xgboost_default
+num__id_11_mean,0.0016732370713725686,xgboost_default
+cat__top_email_domain_cableone.net,0.0016580079682171345,xgboost_default
+cat__top_email_domain_msn.com,0.0016524983802810311,xgboost_default
+cat__id_31_mode_edge 16.0,0.00165231351274997,xgboost_default
+cat__id_30_mode_Android 5.1.1,0.0016428950475528836,xgboost_default
+num__id_01_median,0.0016395983984693885,xgboost_default
+cat__id_30_mode_iOS 11.0.3,0.001637931214645505,xgboost_default
+cat__id_31_mode_chrome 49.0,0.0016372727695852518,xgboost_default
+num__MCC_risk_share_proxy,0.0016330842627212405,xgboost_default
+cat__id_30_mode_Android 7.0,0.0016294547822326422,xgboost_default
+num__tx_count_high_risk_flow,0.0016059756744652987,xgboost_default
+cat__id_31_mode_chrome generic for android,0.0015952733810991049,xgboost_default
+cat__id_31_mode_chrome 64.0,0.0015951654640957713,xgboost_default
+num__id_05_count,0.001591685228049755,xgboost_default
+cat__id_33_mode_2436x1125,0.001583077828399837,xgboost_default
+cat__top_email_domain_live.com,0.00157559709623456,xgboost_default
+cat__id_33_mode_1024x600,0.0015750140883028507,xgboost_default
+num__id_11_median,0.001561680343002081,xgboost_default
+cat__id_30_mode_iOS 11.2.5,0.0015610905829817057,xgboost_default
+cat__id_31_mode_firefox 57.0,0.0015287894057109952,xgboost_default
+cat__card4_mode_visa,0.0015147402882575989,xgboost_default
+cat__id_33_mode_1334x750,0.0015127629740163684,xgboost_default
+cat__top_email_domain_live.com.mx,0.0015091279055923223,xgboost_default
+cat__top_email_domain_gmail,0.001501888153143227,xgboost_default
+num__id_09_median,0.0014970218762755394,xgboost_default
+num__productcd_nunique,0.0014962739078328013,xgboost_default
+cat__id_31_mode_chrome 61.0,0.0014927726006135345,xgboost_default
+cat__top_email_domain_bellsouth.net,0.0014888780424371362,xgboost_default
+cat__id_37_mode_T,0.0014828105922788382,xgboost_default
+cat__id_30_mode_iOS 9.3.5,0.0014825536636635661,xgboost_default
+cat__top_email_domain_verizon.net,0.001475958852097392,xgboost_default
+cat__id_30_mode_Android 7.1.1,0.0014738793252035975,xgboost_default
+cat__id_30_mode_Android,0.0014563038712367415,xgboost_default
+cat__id_33_mode_infrequent_sklearn,0.0014549768529832363,xgboost_default
+cat__id_33_mode_MISSING,0.0014500822871923447,xgboost_default
+cat__id_33_mode_2160x1440,0.0014442187966778874,xgboost_default
+cat__top_email_domain_mac.com,0.001441867440007627,xgboost_default
+cat__top_email_domain_gmx.de,0.0014342243084684014,xgboost_default
+cat__top_email_domain_yahoo.com.mx,0.0014252091059461236,xgboost_default
+cat__card4_mode_MISSING,0.0014223407488316298,xgboost_default
+cat__id_31_mode_chrome 65.0,0.001419806620106101,xgboost_default
+cat__id_30_mode_Linux,0.0014136118115857244,xgboost_default
+cat__id_31_mode_mobile safari 9.0,0.001398167572915554,xgboost_default
+cat__id_31_mode_android browser 4.0,0.0013977681519463658,xgboost_default
+cat__top_email_domain_optonline.net,0.001397240674123168,xgboost_default
+cat__id_36_mode_F,0.22740866243839264,xgboost_tuned_small
+num__id_03_count,0.05789604410529137,xgboost_tuned_small
+num__id_04_count,0.040729302912950516,xgboost_tuned_small
+cat__id_38_mode_F,0.03576400876045227,xgboost_tuned_small
+num__id_17_mode,0.024532122537493706,xgboost_tuned_small
+cat__id_34_mode_match_status:2,0.019181320443749428,xgboost_tuned_small
+num__tx_sum_high_risk_flow_proxy,0.01791868731379509,xgboost_tuned_small
+cat__id_35_mode_T,0.016669858247041702,xgboost_tuned_small
+cat__card6_mode_debit,0.009826998226344585,xgboost_tuned_small
+cat__id_29_mode_Found,0.008830716833472252,xgboost_tuned_small
+num__id_32_mode,0.008694196119904518,xgboost_tuned_small
+num__id_01_mean,0.007690932601690292,xgboost_tuned_small
+cat__id_30_mode_MISSING,0.00765188317745924,xgboost_tuned_small
+cat__top_email_domain_anonymous.com,0.007295054383575916,xgboost_tuned_small
+num__avg_inter_tx_seconds,0.007249193266034126,xgboost_tuned_small
+cat__id_31_mode_ie 11.0 for desktop,0.0069475192576646805,xgboost_tuned_small
+num__history_support_score,0.00684528611600399,xgboost_tuned_small
+num__tx_sum_stanadart_flow_proxy_proxy,0.006674810778349638,xgboost_tuned_small
+num__low_history_flag,0.006572645623236895,xgboost_tuned_small
+cat__id_31_mode_chrome 62.0,0.006378633435815573,xgboost_tuned_small
+num__short_turnover_share,0.00631901528686285,xgboost_tuned_small
+num__id_05_mean,0.005468582268804312,xgboost_tuned_small
+cat__card4_mode_american express,0.005268807522952557,xgboost_tuned_small
+cat__top_email_domain_gmail.com,0.004921287763863802,xgboost_tuned_small
+cat__id_33_mode_2048x1536,0.0048966435715556145,xgboost_tuned_small
+cat__id_34_mode_MISSING,0.004826427903026342,xgboost_tuned_small
+cat__id_31_mode_safari generic,0.00481627881526947,xgboost_tuned_small
+num__cash_out_ratio_proxy,0.004760315641760826,xgboost_tuned_small
+cat__top_email_domain_outlook.com,0.004741434473544359,xgboost_tuned_small
+num__id_06_mean,0.004668098874390125,xgboost_tuned_small
+cat__card6_mode_credit,0.004582962021231651,xgboost_tuned_small
+cat__id_33_mode_2208x1242,0.004398138727992773,xgboost_tuned_small
+cat__top_email_domain_mail.com,0.0042383125983178616,xgboost_tuned_small
+cat__id_31_mode_MISSING,0.004236935172230005,xgboost_tuned_small
+num__odd_amount_share,0.004185195546597242,xgboost_tuned_small
+num__id_09_count,0.004030500538647175,xgboost_tuned_small
+cat__id_28_mode_New,0.0038612212520092726,xgboost_tuned_small
+num__tx_amount_sum,0.0037475519347935915,xgboost_tuned_small
+num__tx_count_standart_flow,0.00371633586473763,xgboost_tuned_small
+cat__id_33_mode_1280x720,0.0036884110886603594,xgboost_tuned_small
+num__id_14_mode,0.0036192983388900757,xgboost_tuned_small
+num__id_10_count,0.003532074624672532,xgboost_tuned_small
+num__id_09_mean,0.003501974046230316,xgboost_tuned_small
+num__tx_amount_mean,0.003487277077510953,xgboost_tuned_small
+cat__id_30_mode_Mac OS X 10_12_6,0.0034084771759808064,xgboost_tuned_small
+num__id_02_mean,0.0033693842124193907,xgboost_tuned_small
+cat__id_33_mode_855x480,0.0032686821650713682,xgboost_tuned_small
+cat__id_31_mode_firefox,0.0032683033496141434,xgboost_tuned_small
+cat__id_29_mode_NotFound,0.003218150231987238,xgboost_tuned_small
+cat__id_12_mode_NotFound,0.0032150116749107838,xgboost_tuned_small
+cat__id_38_mode_T,0.0032131033949553967,xgboost_tuned_small
+cat__id_33_mode_1920x1080,0.003190291579812765,xgboost_tuned_small
+cat__id_30_mode_Windows 7,0.0031882706098258495,xgboost_tuned_small
+cat__id_33_mode_3840x2160,0.003180677769705653,xgboost_tuned_small
+cat__id_31_mode_mobile safari generic,0.0031725745648145676,xgboost_tuned_small
+cat__card4_mode_discover,0.003167481394484639,xgboost_tuned_small
+cat__id_33_mode_2560x1440,0.0031672269105911255,xgboost_tuned_small
+cat__id_31_mode_chrome generic,0.0030850355979055166,xgboost_tuned_small
+cat__id_16_mode_NotFound,0.0030526313930749893,xgboost_tuned_small
+cat__top_email_domain_hotmail.com,0.00305188843049109,xgboost_tuned_small
+cat__id_30_mode_Windows 8,0.0030442995484918356,xgboost_tuned_small
+num__id_02_median,0.003012529108673334,xgboost_tuned_small
+cat__id_31_mode_infrequent_sklearn,0.0030013946816325188,xgboost_tuned_small
+num__id_20_mode,0.0029593799263238907,xgboost_tuned_small
+cat__id_35_mode_F,0.0029495246708393097,xgboost_tuned_small
+cat__top_email_domain_protonmail.com,0.00292536080814898,xgboost_tuned_small
+num__tx_count_total,0.0027927132323384285,xgboost_tuned_small
+num__non_null_id_values,0.0027760055381804705,xgboost_tuned_small
+num__tx_freq_per_day,0.0026979995891451836,xgboost_tuned_small
+cat__id_36_mode_T,0.0026671243831515312,xgboost_tuned_small
+cat__id_33_mode_1600x900,0.0026321057230234146,xgboost_tuned_small
+cat__id_30_mode_iOS 11.1.2,0.0025692929048091173,xgboost_tuned_small
+cat__top_email_domain_att.net,0.0025230133906006813,xgboost_tuned_small
+cat__id_30_mode_iOS 11.2.2,0.0025062114000320435,xgboost_tuned_small
+num__tx_amount_median_proxy,0.002495491411536932,xgboost_tuned_small
+cat__top_email_domain_MISSING,0.0024677414912730455,xgboost_tuned_small
+cat__id_30_mode_Android 7.1.1,0.002433766145259142,xgboost_tuned_small
+cat__id_33_mode_1440x900,0.002421778393909335,xgboost_tuned_small
+cat__id_33_mode_1366x768,0.0024208270478993654,xgboost_tuned_small
+num__device_type_nunique,0.0023868605494499207,xgboost_tuned_small
+cat__id_30_mode_Windows 10,0.002358164405450225,xgboost_tuned_small
+num__num_missing_identity,0.00233117351308465,xgboost_tuned_small
+cat__id_30_mode_iOS 11.3.0,0.0023294086568057537,xgboost_tuned_small
+num__high_risk_vs_mean,0.002327141584828496,xgboost_tuned_small
+num__id_04_median,0.0023238705471158028,xgboost_tuned_small
+num__tx_dt_span_days,0.0023170372005552053,xgboost_tuned_small
+cat__top_email_domain_ymail.com,0.002316758967936039,xgboost_tuned_small
+num__id_13_mode,0.0023149875923991203,xgboost_tuned_small
+cat__id_31_mode_chrome 66.0 for android,0.0022913541179150343,xgboost_tuned_small
+cat__id_30_mode_Mac OS X 10_11_6,0.002253713319078088,xgboost_tuned_small
+cat__id_31_mode_ie 11.0 for tablet,0.002240045228973031,xgboost_tuned_small
+cat__id_31_mode_mobile safari 10.0,0.002216645050793886,xgboost_tuned_small
+cat__id_31_mode_chrome 63.0,0.0022163682151585817,xgboost_tuned_small
+cat__id_15_mode_Unknown,0.0022079639602452517,xgboost_tuned_small
+num__id_05_median,0.0022064042277634144,xgboost_tuned_small
+num__id_01_median,0.002195062581449747,xgboost_tuned_small
+cat__top_email_domain_web.de,0.0021933612879365683,xgboost_tuned_small
+num__daily_activity_share,0.0021780862007290125,xgboost_tuned_small
+cat__id_34_mode_match_status:1,0.0021767092403024435,xgboost_tuned_small
+num__id_06_median,0.00216029048897326,xgboost_tuned_small
+cat__id_33_mode_2880x1800,0.0021496061235666275,xgboost_tuned_small
+cat__top_email_domain_aol.com,0.0021400919649749994,xgboost_tuned_small
+num__tx_count_high_risk_flow,0.002134227193892002,xgboost_tuned_small
+cat__id_16_mode_MISSING,0.0021336206700652838,xgboost_tuned_small
+cat__id_31_mode_edge 15.0,0.0021317440550774336,xgboost_tuned_small
+cat__id_33_mode_1680x1050,0.0020922941621392965,xgboost_tuned_small
+cat__top_email_domain_hotmail.fr,0.002068227855488658,xgboost_tuned_small
+num__id_18_mode,0.002057773992419243,xgboost_tuned_small
+num__amount_repeat_share,0.0020451610907912254,xgboost_tuned_small
+cat__id_30_mode_Mac OS X 10_10_5,0.0020435936748981476,xgboost_tuned_small
+cat__id_15_mode_New,0.0019895127043128014,xgboost_tuned_small
+cat__top_email_domain_comcast.net,0.001988713163882494,xgboost_tuned_small
+num__crypto_pattern_score,0.001984573435038328,xgboost_tuned_small
+num__tx_amount_std,0.0019781766459345818,xgboost_tuned_small
+cat__id_33_mode_1280x1024,0.001974419690668583,xgboost_tuned_small
+num__weighted_amount_repeat_share,0.001973706530407071,xgboost_tuned_small
+cat__id_33_mode_MISSING,0.0019680741243064404,xgboost_tuned_small
+cat__id_30_mode_iOS 10.2.1,0.00195977371186018,xgboost_tuned_small
+num__addr2_nunique,0.001939294976182282,xgboost_tuned_small
+cat__id_31_mode_chrome 63.0 for android,0.0019367928616702557,xgboost_tuned_small
+num__id_19_mode,0.00193584815133363,xgboost_tuned_small
+cat__id_37_mode_F,0.0019225605065003037,xgboost_tuned_small
+cat__id_12_mode_Found,0.0019124018726870418,xgboost_tuned_small
+cat__top_email_domain_infrequent_sklearn,0.0019040582701563835,xgboost_tuned_small
+cat__id_30_mode_iOS 10.3.1,0.0019012921256944537,xgboost_tuned_small
+cat__top_email_domain_sbcglobal.net,0.0018949751975014806,xgboost_tuned_small
+cat__id_30_mode_iOS 11.2.6,0.0018888820195570588,xgboost_tuned_small
+num__id_02_count,0.001876781228929758,xgboost_tuned_small
+num__identity_rows,0.0018707989947870374,xgboost_tuned_small
+cat__id_30_mode_Mac OS X 10_13_2,0.001861824537627399,xgboost_tuned_small
+cat__top_email_domain_live.com,0.0018505119951441884,xgboost_tuned_small
+cat__id_31_mode_samsung browser 6.2,0.0018372785998508334,xgboost_tuned_small
+cat__id_31_mode_chrome 66.0,0.0018277138005942106,xgboost_tuned_small
+cat__top_email_domain_icloud.com,0.001820645877160132,xgboost_tuned_small
+num__id_09_median,0.0018191159470006824,xgboost_tuned_small
+cat__id_30_mode_Windows 8.1,0.001815682277083397,xgboost_tuned_small
+cat__id_15_mode_Found,0.001814315328374505,xgboost_tuned_small
+num__id_10_mean,0.001813262701034546,xgboost_tuned_small
+cat__id_31_mode_android webview 4.0,0.0017873389879241586,xgboost_tuned_small
+num__id_11_mean,0.0017864004475995898,xgboost_tuned_small
+cat__id_30_mode_Mac OS X 10_13_1,0.0017811504658311605,xgboost_tuned_small
+cat__id_31_mode_chrome 62.0 for android,0.0017528466414660215,xgboost_tuned_small
+cat__id_31_mode_firefox 59.0,0.0017518071690574288,xgboost_tuned_small
+cat__top_email_domain_cox.net,0.001751751289702952,xgboost_tuned_small
+cat__id_33_mode_1920x1200,0.0017479588277637959,xgboost_tuned_small
+cat__id_33_mode_2001x1125,0.0017331388080492616,xgboost_tuned_small
+cat__top_email_domain_me.com,0.0017243926413357258,xgboost_tuned_small
+cat__id_30_mode_Linux,0.0017213058890774846,xgboost_tuned_small
+num__MCC_risk_share_proxy,0.0017200458096340299,xgboost_tuned_small
+cat__id_30_mode_infrequent_sklearn,0.0017118592513725162,xgboost_tuned_small
+cat__id_31_mode_edge 16.0,0.0016900936607271433,xgboost_tuned_small
+cat__top_email_domain_rocketmail.com,0.0016857646405696869,xgboost_tuned_small
+num__id_10_median,0.0016848688246682286,xgboost_tuned_small
+cat__top_email_domain_yahoo.com.mx,0.0016829108353704214,xgboost_tuned_small
+cat__id_31_mode_firefox 58.0,0.0016820546006783843,xgboost_tuned_small
+cat__id_16_mode_Found,0.0016751759685575962,xgboost_tuned_small
+cat__id_33_mode_1280x800,0.001655501313507557,xgboost_tuned_small
+cat__card4_mode_mastercard,0.0016383921029046178,xgboost_tuned_small
+cat__top_email_domain_bellsouth.net,0.0016271662898361683,xgboost_tuned_small
+num__id_05_count,0.0016212157206609845,xgboost_tuned_small
+cat__id_31_mode_chrome 64.0,0.001619890215806663,xgboost_tuned_small
+cat__id_30_mode_Android 7.0,0.001611710642464459,xgboost_tuned_small
+cat__id_30_mode_iOS 11.0.3,0.0016094113234430552,xgboost_tuned_small
+cat__id_31_mode_mobile safari 11.0,0.0015976263675838709,xgboost_tuned_small
+cat__id_30_mode_Android 6.0.1,0.001595875364728272,xgboost_tuned_small
+cat__id_30_mode_Mac OS X 10_13_4,0.0015910560032352805,xgboost_tuned_small
+cat__id_31_mode_mobile safari 9.0,0.001585814985446632,xgboost_tuned_small
+cat__top_email_domain_yahoo.com,0.0015833417419344187,xgboost_tuned_small
+cat__id_30_mode_iOS 10.3.3,0.0015739289810881019,xgboost_tuned_small
+cat__id_33_mode_2560x1600,0.001569329877384007,xgboost_tuned_small
+cat__id_33_mode_infrequent_sklearn,0.0015609725378453732,xgboost_tuned_small
+cat__id_33_mode_1024x600,0.0015283479588106275,xgboost_tuned_small
+cat__top_email_domain_msn.com,0.0015148967504501343,xgboost_tuned_small
+cat__id_31_mode_firefox 57.0,0.0015123129123821855,xgboost_tuned_small
+cat__id_33_mode_2436x1125,0.001506301574409008,xgboost_tuned_small
+cat__id_33_mode_2220x1080,0.0014950238401070237,xgboost_tuned_small
+cat__top_email_domain_optonline.net,0.001493872026912868,xgboost_tuned_small
+num__id_06_count,0.0014932593330740929,xgboost_tuned_small
+num__id_11_count,0.00148501165676862,xgboost_tuned_small
+num__id_11_median,0.0014830593718215823,xgboost_tuned_small
+cat__id_30_mode_iOS 11.2.1,0.001475460478104651,xgboost_tuned_small
+cat__top_email_domain_verizon.net,0.0014684749767184258,xgboost_tuned_small
+num__id_03_mean,0.0014589751372113824,xgboost_tuned_small
+cat__id_30_mode_iOS 11.2.5,0.0014346663374453783,xgboost_tuned_small
+cat__id_33_mode_1334x750,0.0014265038771554828,xgboost_tuned_small
+cat__id_30_mode_Android,0.0014256807044148445,xgboost_tuned_small
+cat__id_31_mode_chrome generic for android,0.0014016875065863132,xgboost_tuned_small
+cat__id_31_mode_chrome 65.0,0.0014006557175889611,xgboost_tuned_small
+cat__id_31_mode_safari 11.0,0.0013998305657878518,xgboost_tuned_small
+cat__id_30_mode_Android 8.0.0,0.001386613817885518,xgboost_tuned_small
+cat__id_33_mode_1136x640,0.0013766569318249822,xgboost_tuned_small
+cat__id_33_mode_2732x2048,0.0013743173331022263,xgboost_tuned_small
+num__productcd_nunique,0.0013713769149035215,xgboost_tuned_small
+cat__card6_mode_MISSING,0.0013661637203767896,xgboost_tuned_small
+cat__card4_mode_visa,0.0013430436374619603,xgboost_tuned_small
+num__id_03_median,0.0013404515339061618,xgboost_tuned_small
+cat__top_email_domain_charter.net,0.0013302892912179232,xgboost_tuned_small
+num__id_07_count,0.0013106203405186534,xgboost_tuned_small
+cat__id_34_mode_match_status:0,0.0012965358328074217,xgboost_tuned_small
+cat__id_33_mode_1024x768,0.0012578396126627922,xgboost_tuned_small

@@ -1,0 +1,28 @@
+# Персональные и дипломные документы
+ВКР ДОКИ/
+*.docx
+*.pptx
+*.pdf
+~$*
+ML/1.6/V1_6_DIPLOMA_PARAGRAPHS.txt
+
+# Кэши и временные файлы
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# Случайные установщики и временные директории приложений
+*.exe
+scoped_dir*/
+ML/**/scoped_dir*/
+
+# Сырые копии исходного набора данных
+OG_DATA/
+train_transaction.csv
+train_identity.csv
+test_transaction.csv
+test_identity.csv
